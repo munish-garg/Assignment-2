@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+body{
+    background: linear-gradient(to right, #b24592, #f15f79);
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Carter One', cursive;
+}
+
+.contact-heading{
+    width: 50%;
+    height: 50px;
+    border: 3px solid black;
+    transform: translateX(50%);
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    background: linear-gradient(to right, #fdfc47, #24fe41);
+
+}
+
+ul{
+    width: 50%;
+    transform: translateX(50%);
+    z-index: -1;
+}
+
+.contact-heading > p{
+    text-align: center;
+    transform: translateY(-50%);
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul > li{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li::before{
+    content: '\1F4DE';
+}
+
+section{
+    height: 2190px;
+}
+
+h1::before{
+    content: '\1F57F';
+}
